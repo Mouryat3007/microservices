@@ -9,7 +9,7 @@ account = {
     'name': 'John Doe'
 }
 
-@app.route('/account', methods=['GET'])
+@app.route('/')
 def get_account():
     return jsonify({
         'account': account,
