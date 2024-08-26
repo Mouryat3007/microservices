@@ -4,6 +4,9 @@ FROM python:3.8-slim
 # Set the working directory in the container
 WORKDIR /app
 
+# Upgrade pip
+RUN pip install --upgrade pip
+
 # Copy the requirements file into the container
 COPY requirements.txt .
 
@@ -14,4 +17,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Command to run the application
-CMD ["python", "products.py"]  # Ensure this matches your service file name
+CMD ["python", "products.py"]  # Adjust for each service
