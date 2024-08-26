@@ -9,7 +9,7 @@ deals = [
     {'id': 3, 'product_name': 'Product 3', 'discount': '20%'},
 ]
 
-@app.route('/deals', methods=['GET'])
+@app.route('/')
 def get_deals():
     return jsonify({
         'deals': deals,
