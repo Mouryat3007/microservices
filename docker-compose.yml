@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  home-service:
+    build:
+      context: ./home
+    container_name: home-service
+    ports:
+      - "5000:5000"
+
+  products-service:
+    build:
+      context: ./products
+    container_name: products-service
+    ports:
+      - "5001:5001"
+
+  deals-service:
+    build:
+      context: ./deals
+    container_name: deals-service
+    ports:
+      - "5002:5002"
+
+  orders-service:
+    build:
+      context: ./orders
+    container_name: orders-service
+    ports:
+      - "5003:5003"
+
+  accounts-service:
+    build:
+      context: ./accounts
+    container_name: accounts-service
+    ports:
+      - "5004:5004"
