@@ -8,7 +8,7 @@ orders = [
     {'order_id': 2, 'product_name': 'Product 2', 'quantity': 1, 'status': 'processing'},
 ]
 
-@app.route('/orders', methods=['GET'])
+@app.route('/')
 def get_orders():
     return jsonify({
         'orders': orders,
