@@ -47,7 +47,10 @@ cd ecommerce-microservices
 2. Build and Run Locally with Docker Compose
 bash
 Copy code
+
+```bash
 docker-compose up --build
+```
 User Service: Accessible at http://localhost:5000/users
 Product Service: Accessible at http://localhost:5001/products
 Order Service: Accessible at http://localhost:5002/orders
