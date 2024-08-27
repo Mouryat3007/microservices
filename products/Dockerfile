@@ -17,4 +17,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Command to run the application
-CMD ["python", "products.py"]  # Adjust for each service
+CMD ["python", "products.py"]
