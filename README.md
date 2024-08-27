@@ -1,4 +1,4 @@
-E-commerce Microservices Project
+### E-commerce Microservices Project
 
 This project is a simple e-commerce application implemented using microservices architecture. The application consists of three microservices:
 
