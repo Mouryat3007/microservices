@@ -57,8 +57,12 @@ Order Service: Accessible at http://localhost:5002/orders
 3. Build Docker Images
 bash
 Copy code
+```bash
 docker build -t your_dockerhub_username/user-service:latest ./user-service
+```
+```bash
 docker build -t your_dockerhub_username/product-service:latest ./product-service
+```
 docker build -t your_dockerhub_username/order-service:latest ./order-service
 4. Push Docker Images to Docker Hub
 bash
