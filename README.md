@@ -77,9 +77,15 @@ Apply the Kubernetes manifests:
 
 bash
 Copy code
+```bash
 kubectl apply -f k8s/user-service-deployment.yml
+```
+```bash
 kubectl apply -f k8s/product-service-deployment.yml
+```
+```bash
 kubectl apply -f k8s/order-service-deployment.yml
+```
 Verify that all services are running:
 bash
 Copy code
