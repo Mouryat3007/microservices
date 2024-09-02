@@ -89,8 +89,12 @@ kubectl apply -f k8s/order-service-deployment.yml
 Verify that all services are running:
 bash
 Copy code
+```bash
 kubectl get pods
+```
+```bash
 kubectl get services
+```
 6. Jenkins CI/CD Pipeline
 The project includes a Jenkinsfile for automating the CI/CD process.
 
