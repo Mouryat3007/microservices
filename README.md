@@ -74,7 +74,12 @@ docker push your_dockerhub_username/order-service:latest
 Ensure your Kubernetes cluster is up and running.
 
 Apply the Kubernetes manifests:
-
+```bash
+ kubectl apply -f home-deployment.yml
+```
+```bash
+ kubectl apply -f home-service.yml
+```
 bash
 Copy code
 ```bash
