@@ -67,8 +67,12 @@ docker build -t your_dockerhub_username/order-service:latest ./order-service
 4. Push Docker Images to Docker Hub
 bash
 Copy code
+```bash
 docker push your_dockerhub_username/user-service:latest
+```
+```bash
 docker push your_dockerhub_username/product-service:latest
+```
 docker push your_dockerhub_username/order-service:latest
 5. Deploy to Kubernetes
 Ensure your Kubernetes cluster is up and running.
