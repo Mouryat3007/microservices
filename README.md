@@ -73,7 +73,10 @@ docker push your_dockerhub_username/user-service:latest
 ```bash
 docker push your_dockerhub_username/product-service:latest
 ```
+```bash
 docker push your_dockerhub_username/order-service:latest
+```
+
 5. Deploy to Kubernetes
 Ensure your Kubernetes cluster is up and running.
 
