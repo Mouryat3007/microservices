@@ -42,9 +42,11 @@ Setup and Deployment
 1. Clone the Repository
 bash
 Copy code
+```bash
 git clone https://github.com/your-username/ecommerce-microservices.git
+```
 cd ecommerce-microservices
-2. Build and Run Locally with Docker Compose
+3. Build and Run Locally with Docker Compose
 bash
 Copy code
 
