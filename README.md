@@ -63,9 +63,10 @@ docker build -t your_dockerhub_username/user-service:latest ./user-service
 ```bash
 docker build -t your_dockerhub_username/product-service:latest ./product-service
 ```
+```bash
 docker build -t your_dockerhub_username/order-service:latest ./order-service
+```
 4. Push Docker Images to Docker Hub
-bash
 Copy code
 ```bash
 docker push your_dockerhub_username/user-service:latest
