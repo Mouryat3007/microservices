@@ -40,7 +40,7 @@ Jenkins: Set up a Jenkins server for CI/CD.
 Python: Python 3.9+ to run the services locally.
 Setup and Deployment
 1. Clone the Repository
-bash
+
 Copy code
 ```bash
 git clone https://github.com/your-username/ecommerce-microservices.git
@@ -57,7 +57,7 @@ User Service: Accessible at http://localhost:5000/users
 Product Service: Accessible at http://localhost:5001/products
 Order Service: Accessible at http://localhost:5002/orders
 3. Build Docker Images
-bash
+
 Copy code
 ```bash
 docker build -t your_dockerhub_username/user-service:latest ./user-service
