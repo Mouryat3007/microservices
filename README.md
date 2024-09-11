@@ -45,7 +45,9 @@ Copy code
 ```bash
 git clone https://github.com/your-username/ecommerce-microservices.git
 ```
+```bash
 cd ecommerce-microservices
+```
 3. Build and Run Locally with Docker Compose
 bash
 Copy code
