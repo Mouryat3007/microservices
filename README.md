@@ -127,7 +127,9 @@ Monitoring and Scaling
 Scaling: You can scale the services using Kubernetes by updating the replicas in the deployment files:
 bash
 Copy code
+```bash
 kubectl scale deployment user-service --replicas=4
+```
 Monitoring: Consider integrating monitoring tools like Prometheus and Grafana, and logging tools like the ELK stack.
 Contributing
 Contributions are welcome! Please fork this repository and submit a pull request with your changes.
