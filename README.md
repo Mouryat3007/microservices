@@ -7,33 +7,9 @@ Product Service: Manages product catalog.
 Order Service: Manages customer orders.
 Each service is containerized using Docker and deployed on a Kubernetes cluster.
 
-Project Structure
-sql
-Copy code
-ecommerce-microservices/
-│
-├── user-service/
-│   ├── Dockerfile
-│   ├── app.py
-│   ├── requirements.txt
-│   └── ...
-├── product-service/
-│   ├── Dockerfile
-│   ├── app.py
-│   ├── requirements.txt
-│   └── ...
-├── order-service/
-│   ├── Dockerfile
-│   ├── app.py
-│   ├── requirements.txt
-│   └── ...
-├── docker-compose.yml
-└── k8s/
-    ├── user-service-deployment.yml
-    ├── product-service-deployment.yml
-    ├── order-service-deployment.yml
-    └── ...
-Prerequisites
+
+**Prerequisites**
+
 Docker: Install Docker to build and run the containers.
 Kubernetes: Set up a Kubernetes cluster (locally using Minikube or on a cloud provider).
 Jenkins: Set up a Jenkins server for CI/CD.
